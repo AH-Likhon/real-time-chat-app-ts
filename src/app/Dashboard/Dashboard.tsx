@@ -1,3 +1,4 @@
+import Button from '@/components/UI/Button'
 import { FC } from 'react'
 
 interface DashboardProps {
@@ -5,7 +6,7 @@ interface DashboardProps {
 }
 
 const Dashboard: FC<DashboardProps> = ({}) => {
-  return <div>Dashboard</div>
+  return <Button>Hello</Button>
 }
 
 export default Dashboard
