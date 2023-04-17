@@ -1,9 +1,11 @@
-import Dashboard from "./Dashboard/Dashboard";
+import { db } from "@/lib/db"
 
-export default function Home() {
+export default async function Home() {
+  await db.set('Hello New', 'ello');
+
   return (
-   <>
-   <Dashboard/>
-   </>
+  <div className="text-red-500">
+    Hello World!
+  </div>
   )
 }

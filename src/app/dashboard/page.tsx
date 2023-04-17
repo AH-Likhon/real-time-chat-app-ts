@@ -1,12 +1,12 @@
 import Button from '@/components/UI/Button'
 import { FC } from 'react'
 
-interface DashboardProps {
+interface pageProps {
   
 }
 
-const Dashboard: FC<DashboardProps> = ({}) => {
+const page: FC<pageProps> = ({}) => {
   return <Button>Hello</Button>
 }
 
-export default Dashboard
+export default page;
