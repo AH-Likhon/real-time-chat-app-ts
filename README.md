@@ -1,1 +1,1 @@
-<h2>Real Time Chat App Using TypScript</h2>
+<h2>Real Time Chat App Using TypeScript</h2>
